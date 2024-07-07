@@ -9,15 +9,15 @@ on:
       GSI:
         description: 'direct link for Gsi image '
         required: true
-        default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20230715-UNOFFICIAL-a64_bgN.img.xz'        
+        default: 'https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_Beta_treble_arm64_bN-14.0-20231114.img.xz'        
       ARCH:
         description: 'ARM64 or ARM32?'
         required: true
-        default: '32'                
+        default: '64'                
       NAME:
-        description: 'Rom Name'
+        description: 'PIXEL_OS_14_SAMSUNG_GALAXY_M11'
         required: true
-        default: 'LineageOS_19.1_A11_M11_ARM32_Gapps'                
+        default: 'PIXEL_OS_14_SAMSUNG_M11_GAPPS'                
 
 jobs:
   Build:
