@@ -35,7 +35,7 @@ jobs:
     - name: Preparing Files
       run: |
         wget https://sourceforge.net/projects/samsung-galaxy-a01-m01/files/a11q.zip
-        git clone https://github.com/smiley9000/Custom-Rom-Builder-For-Samsung-Galaxy-A11-M11
+        git clone https://github.com/gookogeeky/Custom-Rom-Builder-For-Samsung-Galaxy-A11-M11
         unzip a11q.zip
         rm -r a11q.zip
 
